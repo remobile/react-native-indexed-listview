@@ -8,7 +8,6 @@ var {
     ListView,
 } = ReactNative;
 var _ = require('lodash');
-var ReactNativeComponentTree = require('react/lib/ReactNativeComponentTree');
 
 var AlphabetaList = React.createClass({
     getDefaultProps() {
