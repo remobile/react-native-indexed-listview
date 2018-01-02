@@ -132,6 +132,7 @@ module.exports = React.createClass({
                     ref={(ref) => { this.listView = ref; }}
                     style={styles.list}
                     initialListSize={initialListSize}
+                    removeClippedSubviews={false}
                     onEndReachedThreshold={10}
                     enableEmptySections
                     dataSource={dataSource}

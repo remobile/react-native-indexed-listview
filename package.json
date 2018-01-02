@@ -1,6 +1,6 @@
 {
     "name": "@remobile/react-native-indexed-listview",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A indexed listview in chat app like contacts list",
     "main": "index.js",
     "author": {
