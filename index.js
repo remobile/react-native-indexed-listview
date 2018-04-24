@@ -1,6 +1,7 @@
 'use strict';
 
-const React = require('react');const ReactNative = require('react-native');
+const React = require('react');
+const ReactNative = require('react-native');
 const {
     StyleSheet,
     View,
@@ -174,6 +175,7 @@ const styles = StyleSheet.create({
     },
     touchLayer: {
         position: 'absolute',
+        backgroundColor: 'transparent',
         top: 0,
         left: 0,
         right: 0,
